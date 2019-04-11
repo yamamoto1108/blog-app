@@ -1,15 +1,86 @@
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
- * vendor/assets/stylesheets directory can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
- * files in this directory. Styles in this file should be added after the last require_* statement.
- * It is generally better to create a new file per style scope.
- *
- *= require_tree .
- *= require_self
- */
+.amber {
+  position: fixed;
+  z-index: 1;
+  padding-left: 20px;
+}
+
+
+
+/* .row {
+  height: 100vh;
+  width: 100vw;
+} */
+
+.side {
+  background-color: #ffecb3;
+  width: 200px;
+  height: 100vh;
+  padding-top: 80px;
+  padding-left: 20px;
+  float: left;
+  overflow: scroll;
+  position: fixed;
+}
+
+.search {
+  font-size: 15px;
+}
+
+.main {
+  /* background-color: gray; */
+  width: 100vw;
+  height: 100vh;
+  padding: 80px 50px 30px 250px;
+  float: left;
+  overflow: scroll;
+}
+
+h3 {
+  text-align: center;
+}
+
+.post {
+  border: 1px solid #eeeeee;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.head-contents {
+  border-bottom: 1px solid #eeeeee;
+  display: flex;
+}
+.title {
+  font-size: 20px;
+  flex-grow: 1;
+}
+
+.user {
+}
+
+.date {
+  margin-left: 5px;
+}
+
+.links {
+  display: flex;
+}
+
+.tag {
+  flex-grow: 1;
+}
+
+.delete {
+  margin-left: 5px;
+}
+
+.foot-contents {
+  display: flex;
+}
+
+.comment {
+  flex-grow: 1
+}
+
+.like {
+  margin-left: 5px;
+}
